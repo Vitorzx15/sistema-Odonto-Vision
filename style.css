@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f9;
+    color: #333;
+}
+
+header {
+    background-color: #0a8d8d;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.logo-pequena {
+    height: 40px;
+}
+
+main {
+    text-align: center;
+    padding: 30px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #0a8d8d;
+    color: white;
+}
+
+.formulario {
+    width: 60%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.formulario input {
+    width: 95%;
+    padding: 8px;
+    margin: 6px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.formulario button {
+    background-color: #0a8d8d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #0b7070;
+}
+
+.login-page {
+    background: linear-gradient(to bottom right, #b0f0f0, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-container input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.login-container button {
+    background-color: #0a8d8d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0b7070;
+}
+
+.logo {
+    width: 100px;
+}
